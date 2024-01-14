@@ -187,7 +187,7 @@ const Sidebar = () => {
            आय.टी.सी अनुकूल उपक्रमांचे व नाविन्यपूर्ण उपक्रमांचे मनपा धोरणासोबत एकत्रीकरण(INTERVENSIONS)
             </Typography>
           <SubMenu label=""  style={{ color: 'white' }}>
-            <MenuItem onClick={()=>setPage("NoOfPolicyAndGuidline")}>ITC च्या गरजा लक्षात <br />घेऊन PMC ने मंजूर <br />केलेल्या धोरणांची आणि <br />मार्गदर्शक तत्त्वांची संख्या<br />(No of Policies and<br />Guidlines) </MenuItem>
+            <MenuItem onClick={()=>setPage("NoOfPolicyAndGuidelines")}>ITC च्या गरजा लक्षात <br />घेऊन PMC ने मंजूर <br />केलेल्या धोरणांची आणि <br />मार्गदर्शक तत्त्वांची संख्या<br />(No of Policies and<br />Guidlines) </MenuItem>
             <MenuItem onClick={()=>setPage("Features")}>पी.एम.सी च्या विविध<br /> विभागामध्ये समाविष्ट <br />केलेल्या आय. टी. सी <br />अनुकूल घटक/वैशिष्ट्यांची<br />संख्या(Features) </MenuItem>
             <MenuItem onClick={()=>setPage("CityPlanning")}>शहर नियोजनात समाविष्ट<br />केलेल्या ITC अनुकूल <br />कृतींची/उपाययोजनांची <br />संख्या(City Plannig) </MenuItem>  
           </SubMenu>
