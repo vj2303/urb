@@ -52,9 +52,9 @@ const Dashboard = () => {
       <NoisePollution /> : page === "Allocated" ?
       <Allocated /> : page === "Utilization" ?
       <Utilization /> : page === "AdditionalBudget" ? 
-      <AdditionalBudget /> : page ==="NoOfPolicyAndGuidline" ?
+      <AdditionalBudget /> : page ==="NoOfPolicyAndGuidelines" ?
       <NoOfPolicyAndGuidlines/>: page === "Features" ?
-      <Features /> : page === "CityPlannig" ?
+      <Features /> : page === "CityPlanning" ?
       <CityPlanning /> : ""    
       }
 
